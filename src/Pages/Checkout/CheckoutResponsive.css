@@ -1,0 +1,26 @@
+/* ====== Checkout section ====== */
+@media all and (max-width: 768px) {
+    #checkout {
+        padding: 70px 0;
+    }
+
+    .checkOrder {
+        padding: 30px 20px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #checkout {
+        padding: 50px 0;
+    }
+
+    .showCoupon {
+        padding: 16px 20px;
+    }
+
+    .coupanForm {
+        padding: 25px 20px;
+    }
+}
+
+/* ====== End Checkout section ====== */

@@ -1,0 +1,49 @@
+/* ====== 3.1 Add To Cart section ====== */
+@media all and (max-width: 768px) {
+    #addCart {
+        padding: 70px 0;
+    }
+
+    .addCartContent {
+        padding: 0;
+    }
+
+    .addCartContent p {
+        padding: 0 0 10px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #addCart {
+        padding: 50px 0;
+    }
+}
+
+/* ====== End 3.1 Add To Cart section ====== */
+
+/* ====== 3.2 Other Details section ====== */
+@media all and (max-width: 768px) {
+    #otherDetails {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #otherDetails {
+        padding: 50px 0;
+    }
+
+    #otherDetails .tabs button span {
+        padding: 0 0 0 5px;
+    }
+
+    #otherDetails .tabs {
+        padding-bottom: 10px;
+    }
+
+    .review button {
+        width: 100%;
+    }
+}
+
+/* ====== End 3.2 Other Details section ====== */

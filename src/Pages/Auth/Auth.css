@@ -1,0 +1,63 @@
+/* ====== 4.2 Login/Register section ====== */
+#login {
+    padding: 100px 0;
+    border-bottom: 1px solid rgb(221 221 221);
+}
+
+.forms {
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.forms h3 {
+    color: #000;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.forms h4 {
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.forms input {
+    outline: none;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid rgb(221 221 221);
+    color: rgb(102 102 102);
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+}
+
+.forms input::placeholder {
+    color: rgb(102 102 102);
+}
+
+.forms input[type="checkbox"] {
+    height: auto;
+    width: auto;
+}
+
+.forms label {
+    color: #000;
+    font-size: 14px;
+}
+
+.forms a {
+    color: #000;
+}
+
+.forms button {
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.forms p {
+    padding-bottom: 20px;
+}
+
+/* ====== End 4.2 Login/Register section ====== */

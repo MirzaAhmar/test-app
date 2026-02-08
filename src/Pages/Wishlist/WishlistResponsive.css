@@ -1,0 +1,52 @@
+/* ====== 5.1 No Wishlist section ====== */
+@media all and (max-width: 768px) {
+    #noWishlist {
+        padding: 70px 0;
+    }
+
+    .wishlistHeart {
+        font-size: 100px;
+    }
+
+    #noWishlist button {
+        height: 45px;
+        padding: 0 30px;
+    }
+
+    .wishlist_table {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #noWishlist {
+        padding: 50px 0;
+    }
+
+    .wishlistHeart {
+        font-size: 85px;
+    }
+
+    .wishlist_table {
+        padding: 50px 0;
+    }
+
+    .wishlist_table {
+        overflow: scroll;
+    }
+
+    .cartTotal {
+        padding: 30px 10px;
+    }
+
+    .coupon .row {
+        width: 100%;
+    }
+
+    .clearBtn {
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+
+/* ====== 5.1 No Wishlist section ====== */

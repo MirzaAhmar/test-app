@@ -1,0 +1,77 @@
+/* ====== Blog Deatils section ====== */
+#blogDetail {
+    padding: 100px 0;
+}
+
+#blogDetail h3 {
+    color: #000;
+    padding: 30px 0 20px 0;
+}
+
+#blogDetail .breadcrumb {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.blogDesc span {
+    color: #979797;
+}
+
+.blogDesc h6:last-child {
+    display: flex;
+    gap: 8px;
+}
+
+.blogDesc {
+    padding: 0 0 0 150px;
+}
+
+.blogDesc a {
+    color: #000;
+}
+
+.blogDesc p {
+    color: #000;
+    padding-right: 300px;
+}
+
+.quote {
+    padding-left: 50px;
+}
+
+.quote p {
+    font-weight: 600 !important;
+    padding-right: 0;
+}
+
+/* ====== End Blog Deatils section ====== */
+
+/* responsive */
+@media all and (max-width: 768px) {
+    #blogDetail {
+        padding: 70px 0;
+    }
+
+    .blogDesc {
+        padding: 0 0 0 20px;
+    }
+
+    .quote {
+        padding-left: 20px;
+    }
+
+    .blogDesc p {
+        padding-right: 0;
+    }
+
+    #blogDetail h3 {
+        padding: 20px 0 10px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #blogDetail {
+        padding: 50px 0 0 0;
+    }
+}

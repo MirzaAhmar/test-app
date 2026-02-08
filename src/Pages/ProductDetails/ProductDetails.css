@@ -1,0 +1,123 @@
+/* ====== 3.1 Add To Cart section ====== */
+#addCart {
+    padding: 100px 0;
+    border-bottom: 1px solid rgb(237 237 237);
+}
+
+#addCart img {
+    width: 100%;
+}
+
+.addCartContent {
+    background-color: #fff;
+    padding: 10px 20px;
+    height: 100%;
+    position: relative;
+}
+
+.addCartContent h3:nth-child(2) {
+    color: rgb(153 153 153);
+    padding: 18px 0 30px 0;
+}
+
+.addCartContent h6 {
+    color: #000;
+    font-weight: 700 !important;
+}
+
+.addCartContent h6 span {
+    color: rgb(59 198 4);
+}
+
+.addCartContent p {
+    padding: 20px 0;
+    color: #000;
+}
+
+/* ====== End 3.1 Add To Cart section ====== */
+
+/* ====== 3.2 Other Details section ====== */
+#otherDetails {
+    padding: 100px 0;
+}
+
+/* tabs */
+#otherDetails .tabs {
+    border-bottom: 1px solid rgb(221 221 221);
+    padding-bottom: 25px;
+}
+
+#otherDetails .tabs button {
+    background-color: transparent;
+    font-weight: 600 !important;
+}
+
+#otherDetails .tabs button.active {
+    color: rgb(220 177 74);
+}
+
+#otherDetails .tabs button span {
+    padding: 0 15px 0 20px;
+}
+
+/* description */
+#otherDetails .description {
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(221 221 221);
+}
+
+#otherDetails .description h4 {
+    padding-bottom: 15px;
+}
+
+#otherDetails .description img {
+    width: 100%;
+}
+
+/* aditional information */
+.additional span {
+    font-weight: bold;
+}
+
+.additional p {
+    padding-top: 15px;
+}
+
+/* review */
+.review {
+    padding-top: 20px;
+}
+
+.review label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.review textarea {
+    border: 1px solid rgb(221 221 221);
+    width: 100%;
+    outline: none;
+    padding: 15px 10px;
+}
+
+.review input {
+    border: 1px solid rgb(221 221 221);
+    width: 100%;
+    outline: none;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.review button {
+    height: 40px;
+    padding: 0 30px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.review form {
+    position: relative;
+}
+
+/* ====== End 3.2 Other Details section ====== */

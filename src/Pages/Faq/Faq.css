@@ -1,0 +1,95 @@
+/* ====== FAQ section ====== */
+#faq {
+    padding: 100px 0;
+}
+
+#faq h2 {
+    color: #000;
+    text-align: center;
+}
+
+#faq P {
+    color: #000;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+#faq .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: rgb(220 177 74);
+}
+
+#faq .accordion h2 {
+    font-size: 800 !important;
+    font-family: "Josefin Sans", serif;
+}
+
+#faq .accordion button {
+    font-size: 800 !important;
+    font-family: "Josefin Sans", serif;
+}
+
+#faq .accordion-body {
+    color: #000;
+    line-height: 28px;
+    font-family: "Josefin Sans", serif;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(1) contrast(6);
+}
+
+#faq .accordion-button:focus {
+    box-shadow: none;
+}
+
+#faq .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 200px;
+}
+
+#faq .accordion-item {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+/* ====== End FAQ section ====== */
+
+/* Responsive */
+@media all and (max-width: 991px) {
+    #faq .accordion {
+        padding: 0 100px;
+    }
+
+    #faq P {
+        color: #000;
+        text-align: center;
+        padding: 15px 0 30px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #faq {
+        padding: 70px 0;
+    }
+
+    #faq .accordion {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #faq {
+        padding: 50px 0;
+    }
+
+    #faq .accordion {
+        gap: 20px;
+    }
+
+    #faq .accordion-body {
+        font-size: 14px;
+    }
+}

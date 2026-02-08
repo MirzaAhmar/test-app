@@ -1,0 +1,48 @@
+/* ====== 2.1 Hero section ====== */
+@media all and (max-width: 767px) {
+    #hero2 {
+        padding: 70px 0;
+    }
+}
+
+/* ====== 2.1 Hero section ====== */
+
+/* ====== 2.2 Video section ====== */
+@media all and (max-width: 767px) {
+    .play_btn {
+        top: 43%;
+        left: 50%;
+        height: 60px;
+        width: 60px;
+        border: 4px solid #fff;
+        font-size: 24px;
+    }
+
+    #video {
+        padding: 50px 0;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .play_btn {
+        top: 40%;
+        left: 45%;
+    }
+}
+
+/* ====== End 2.2 Video section ====== */
+
+/* ====== 2.4 Gallery section ====== */
+@media all and (max-width: 768px) {
+    #gallery {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #gallery {
+        padding: 50px 0;
+    }
+}
+
+/* ====== End 2.4 Gallery section ====== */

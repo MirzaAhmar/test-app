@@ -1,0 +1,839 @@
+/* ====== 1.2 Hero section ====== */
+#hero h5 {
+    color: rgb(220 177 74);
+    width: 150px;
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    position: relative;
+    padding-right: 200px;
+}
+
+#hero h1::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(220 177 74);
+    bottom: -10px;
+    left: 0;
+}
+
+#hero p {
+    padding-top: 40px;
+    padding-right: 170px;
+    padding-bottom: 40px;
+    color: #000;
+}
+
+#hero .slide {
+    padding: 250px 0;
+    position: relative;
+}
+
+#hero .slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero .slide1::before {
+    background-image: url('../../assets/images/hero1.jpg');
+}
+
+#hero .slide2::before {
+    background-image: url('../../assets/images/hero2.jpg');
+}
+
+#hero .slide3::before {
+    background-image: url('../../assets/images/hero3.jpg');
+}
+
+.black_btn {
+    color: #fff;
+    font-weight: 500;
+    background-color: #000;
+    padding: 16px 22px 14px 22px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+}
+
+/* pagination bullet style */
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 12px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 12px));
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
+}
+
+.swiper-pagination-bullet-active {
+    background: rgb(220 177 74);
+}
+
+.swiper-pagination {
+    margin-bottom: 25px;
+}
+
+/* hero slider fade animation */
+.fade-up h5,
+.fade-up h1,
+.fade-up p,
+.fade-up a {
+    opacity: 0;
+    transform: translateY(60px);
+    animation: fadeUp 0.8s ease-in-out forwards;
+}
+
+.fade-up h5 {
+    animation-delay: 0.4s;
+}
+
+.fade-up h1 {
+    animation-delay: 0.6s;
+}
+
+.fade-up p {
+    animation-delay: 0.8s;
+}
+
+.fade-up a {
+    animation-delay: 1s;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ====== End 1.2 Header section ====== */
+
+/* ====== 1.3 Featured section ====== */
+#featured {
+    padding: 100px 0 0 0;
+}
+
+#featured img {
+    height: auto;
+    transition: 0.4s ease;
+}
+
+#featured h5 {
+    color: rgb(153 153 153);
+}
+
+#featured h2 {
+    color: #000;
+    padding: 14px 0 0 0;
+    position: relative;
+}
+
+.b_gold {
+    position: relative;
+}
+
+.b_gold::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(220 177 74);
+    bottom: -10px;
+    left: 0;
+}
+
+#featured p {
+    color: #000;
+    padding: 40px 100px 65px 0;
+}
+
+.featured_content>a:nth-of-type(2) {
+    border: 1px solid #000;
+    background-color: transparent;
+    padding: 10px 26px 8px 26px;
+    color: #000;
+    transition: 0.1s ease;
+}
+
+.featured_content>a:nth-of-type(2):hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#featured .row {
+    margin-bottom: 120px;
+}
+
+#featured .row:hover img {
+    transform: scale(1.050);
+}
+
+/* ====== End 1.3 Featured section ====== */
+
+/* ====== 1.4 Best Selling section ====== */
+#selling {
+    padding: 100px 0;
+}
+
+#selling .container {
+    cursor: ew-resize;
+}
+
+#selling h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.b_center::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(220 177 74);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product_img img {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+.product_img:hover img {
+    transform: scale(1.050);
+}
+
+.product_img {
+    width: 100%;
+    position: relative;
+}
+
+.product_img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s ease;
+}
+
+.product_img:hover::after {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#selling h5 {
+    text-align: center;
+    padding-top: 14px;
+}
+
+#selling h5:nth-child(3) {
+    color: rgb(153 153 153);
+}
+
+.product_img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.allProducts {
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    padding: 0 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.overlay {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    z-index: 1;
+}
+
+#selling a {
+    color: #000;
+    transition: 0.3s ease-in;
+}
+
+/* image overlay icons animation */
+.product_img:hover .overlay {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.overlay div {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.overlay div:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.overlay div:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.overlay div:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.product_img:hover .overlay div {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.product_img .overlay button {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+}
+
+.overlay a:hover button:not(:disabled) {
+    color: rgb(220 177 74);
+}
+
+.stock {
+    cursor: auto;
+}
+
+.stock h5 {
+    color: #fff;
+    padding: 12px 16px 8px 16px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sale {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.sale span {
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.sale span:first-of-type {
+    background-color: rgb(241 71 5);
+}
+
+.sale span:last-of-type {
+    background-color: rgb(152 216 202);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #979797;
+}
+
+#selling .swiper {
+    padding-bottom: 70px;
+}
+
+/* plus button popup */
+.plus_popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+
+.plus_popup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plus_popup svg {
+    cursor: pointer;
+}
+
+.popup_content {
+    background-color: #fff;
+    padding: 60px 30px;
+    height: 100%;
+    position: relative;
+    cursor: auto;
+}
+
+.popup_content h3:nth-child(2) {
+    color: rgb(153 153 153);
+    padding: 18px 0 30px 0;
+}
+
+.popup_content h6 {
+    color: #000;
+    font-weight: 700 !important;
+}
+
+.popup_content h6 span {
+    color: rgb(59 198 4);
+}
+
+.popup_content p {
+    padding: 20px 0;
+    color: #000;
+}
+
+.productCounter {
+    border: 1px solid rgb(221 221 221);
+    padding: 12px 8px 10px 8px;
+    color: #000;
+    width: fit-content;
+}
+
+.productCounter svg {
+    font-size: 12px;
+}
+
+.productCounter input {
+    border: none;
+    outline: none;
+    width: 60px;
+    text-align: center;
+}
+
+.productCounter button {
+    background-color: transparent;
+}
+
+.addCart_btn {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 40px 11px 40px;
+    letter-spacing: 1px;
+}
+
+.favourite {
+    border: 1px solid rgb(221 221 221);
+    background-color: transparent;
+    height: 50px;
+    padding: 0 18px;
+    color: #000;
+    transition: 0.3s ease-out;
+}
+
+.favourite:hover {
+    color: rgb(220 177 74);
+}
+
+.otherInfo h5 {
+    color: #000 !important;
+    text-align: left !important;
+}
+
+.otherInfo h5 span {
+    color: rgb(153 153 153);
+    text-transform: capitalize;
+    padding-left: 14px;
+}
+
+.popup_content .fa-xmark {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+}
+
+
+/* checkout sidebar */
+.checkout_sidebar {
+    position: fixed;
+    top: 0;
+    right: -900px;
+    width: 400px;
+    background-color: #fff;
+    height: 100%;
+    z-index: 9999;
+    padding: 30px 40px;
+    transition: 0.5s ease;
+}
+
+.checkout_sidebar svg {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.checkout_sidebar ul {
+    margin: 30px 0;
+    height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.checkout_sidebar img {
+    width: 70px;
+}
+
+.checkout_sidebar h6 {
+    padding: 2px 0;
+}
+
+.checkout_sidebar li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(221 221 221);
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.checkout_sidebar li span {
+    color: #787878;
+}
+
+.checkout_sidebar li svg {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 15px;
+    color: #787878;
+}
+
+.checkout_sidebar button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+.checkoutBtn {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.checkout_sidebar button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.checkOutOverlay {
+    position: fixed;
+    top: 0;
+    right: -3000px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 8888;
+    opacity: 0.5;
+}
+
+.checkoutOpen {
+    right: 0;
+}
+
+/* ====== End 1.4 Best Selling section ====== */
+
+/* ====== 1.5 Countdown section ====== */
+#countdown {
+    padding: 120px 0;
+    position: relative;
+}
+
+#countdown::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/countdownBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+#countdown h2 span {
+    color: red;
+}
+
+#countdown p {
+    padding: 40px 0 60px 0;
+}
+
+.counters div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#countdown h5 {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+
+#countdown a {
+    margin-top: 70px;
+}
+
+/* ====== End 1.5 Countdown section ====== */
+
+/* ====== 1.6 Blog section ====== */
+#blog {
+    padding: 100px 0;
+}
+
+#blog h2 {
+    position: relative;
+    border-bottom: 26px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+#blog .position-relative {
+    position: relative;
+    overflow: hidden;
+}
+
+#blog .position-relative .read-more {
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    height: 40px;
+    padding: 0 20px;
+    padding-top: 4px;
+    transition: all 0.5s ease;
+}
+
+#blog .blogCard:hover .position-relative .read-more {
+    right: 0;
+}
+
+#blog h3 {
+    padding: 30px 0 20px 0;
+    position: relative;
+    color: #000;
+}
+
+#blog h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #979797;
+}
+
+#blog .breadcrumb {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+#blog .breadcrumb span {
+    color: #979797;
+}
+
+#blog .breadcrumb h6:last-child {
+    display: flex;
+    gap: 8px;
+}
+
+#blog .breadcrumb a {
+    color: #000;
+}
+
+/* ====== End 1.6 Blog section ====== */
+
+/* ====== 1.7 Newsletter section ====== */
+#newsletter {
+    padding: 50px 0;
+}
+
+#newsletter form {
+    height: 55px;
+    position: relative;
+}
+
+#newsletter form input {
+    height: 100%;
+    background-color: rgb(244 245 247);
+    border: none;
+    outline: none;
+    padding: 0 170px 0 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#newsletter form input::placeholder {
+    font-weight: 500;
+}
+
+#newsletter form button {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.loader-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid rgb(220 177 74);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ====== End 1.7 Newsletter section ====== */
+
+/* ====== 1.8 Footer section ====== */
+footer {
+    padding: 70px 0;
+}
+
+footer a {
+    color: #000;
+    transition: 0.3s ease;
+}
+
+footer a:hover {
+    color: rgb(220 177 74);
+}
+
+footer h4 {
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.socialIcons {
+    margin-top: 36px;
+}
+
+.socialIcons svg {
+    font-size: 18px;
+}
+
+footer form {
+    position: relative;
+}
+
+footer input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .25);
+    outline: none;
+    padding-bottom: 14px;
+    padding-right: 34px;
+    width: 100%;
+}
+
+footer input::placeholder {
+    color: #979797;
+    opacity: 005;
+}
+
+footer button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+#subFooter img {
+    margin-top: 16px;
+}
+
+#subFooter {
+    padding-bottom: 50px;
+}
+
+#subFooter a {
+    color: #000;
+}
+
+/* ====== End 1.8 Footer section ====== */

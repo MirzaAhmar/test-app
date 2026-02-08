@@ -1,0 +1,29 @@
+/* ====== Coming Soon section ====== */
+#coming {
+    padding: 100px 0;
+}
+
+#coming p {
+    color: #000;
+    padding: 15px 0 50px 0;
+}
+
+#coming .counters h1 {
+    color: rgb(220 177 74);
+    font-weight: 300 !important;
+}
+
+/* ====== End Coming Soon section ====== */
+
+/* Responsive */
+@media all and (max-width: 768px) {
+    #coming {
+        padding: 70px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #coming {
+        padding: 50px 0;
+    }
+}

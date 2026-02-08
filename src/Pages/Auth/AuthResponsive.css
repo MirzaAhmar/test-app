@@ -1,0 +1,40 @@
+/* ====== 4.2 Login/Register section ====== */
+@media all and (max-width: 768px) {
+    #login {
+        padding: 70px 0;
+    }
+
+    .forms h3 {
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #login {
+        padding: 50px 0;
+    }
+
+    .forms h3 {
+        margin-bottom: 30px;
+    }
+
+    .forms h4 {
+        padding-bottom: 20px;
+    }
+
+    .forms input {
+        height: 45px;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .forms button {
+        height: 45px;
+    }
+
+    .forms {
+        max-width: 100%;
+    }
+}
+
+/* ====== 4.2 Login/Register section ====== */

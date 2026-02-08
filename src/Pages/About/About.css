@@ -1,0 +1,174 @@
+/* ====== 2.1 Hero section ====== */
+#hero2 {
+    background-color: rgb(244 245 247);
+    padding: 100px 0;
+}
+
+#hero2 h3 {
+    color: #000;
+}
+
+.breadcrumb a {
+    color: #000;
+}
+
+.breadcrumb h5:nth-child(3) {
+    color: rgb(153 153 153);
+}
+
+/* ====== End 2.1 Hero section ====== */
+
+/* ====== 2.2 Video section ====== */
+#video {
+    padding: 100px 0;
+}
+
+#video figure {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#video figure img {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+#video figure::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease;
+}
+
+#video figure:hover::after {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#video figure:hover img {
+    transform: scale(1.050);
+}
+
+.play_btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    z-index: 2;
+    height: 70px;
+    width: 70px;
+    border: 6px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.youtube-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(28, 28, 28, .19);
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* Ensure overlay is clickable */
+}
+
+.youtube-modal {
+    position: fixed;
+    position: relative;
+    background: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(28, 28, 28, .19);
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    max-width: 1000px;
+    max-height: 700px;
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: -46px;
+    right: -6px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.close-modal-btn svg {
+    font-size: 30px;
+}
+
+.modal-content iframe {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* ====== End 2.2 Video section ====== */
+
+/* ====== 2.3 Services section ====== */
+#services svg {
+    font-size: 20px;
+}
+
+#services span {
+    height: 3px;
+    width: 100%;
+    display: block;
+    background-color: #000;
+}
+
+/* ====== End 2.3 Services section ====== */
+
+/* ====== 2.4 Gallery section ====== */
+#gallery {
+    padding: 100px 0;
+    border-bottom: 1px solid rgb(237 237 237);
+}
+
+#gallery figure {
+    width: 100%;
+    overflow: hidden;
+}
+
+#gallery figure img {
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+#gallery figure:hover img {
+    transform: scale(1.050);
+}
+
+#gallery a {
+    color: #000;
+}
+
+/* ====== End 2.4 Gallery section ====== */

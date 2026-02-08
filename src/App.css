@@ -1,0 +1,354 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gilda+Display&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Leckerli+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mynerve&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: "Gilda Display", serif; */
+/* font-family: "Josefin Sans", serif; */
+/* ============= 01. Reset section ============= */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Manrope", sans-serif;
+
+}
+
+html,
+body {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+button:focus {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+select {
+  user-select: none;
+}
+
+label {
+  font-weight: normal;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* =====  End of 01. Reset  ====== */
+
+/* global grid setting start*/
+@media all and (min-width: 992px) {
+
+  .container2 {
+    max-width: 1200px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+
+  .container2 {
+    max-width: 1128px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .container2 {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container2 {
+    max-width: 1830px;
+  }
+}
+
+/* End of global grid setting*/
+
+/* ===== 02. Global Style ===== */
+h1 {
+  font-size: 58px !important;
+  line-height: 64px !important;
+  font-weight: 600 !important;
+  font-family: "Gilda Display", serif;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 42px !important;
+  line-height: 48px !important;
+  font-weight: 600 !important;
+  font-family: "Gilda Display", serif;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 26px !important;
+  line-height: 32px !important;
+  font-weight: 600 !important;
+  font-family: "Gilda Display", serif;
+
+}
+
+h4 {
+  font-size: 22px !important;
+  line-height: 26px !important;
+  font-weight: 700 !important;
+  font-family: "Josefin Sans", serif;
+}
+
+h5 {
+  font-size: 16px !important;
+  line-height: 22px !important;
+  font-weight: 700 !important;
+  font-family: "Josefin Sans", serif;
+}
+
+h6 {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 500 !important;
+  font-family: "Josefin Sans", serif;
+
+}
+
+p {
+  font-size: 16px !important;
+  line-height: 30px !important;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.para {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 400 !important;
+  font-family: "Josefin Sans", serif;
+
+}
+
+button {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  font-weight: 500 !important;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+}
+
+a {
+  font-family: "Josefin Sans", serif;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 38px !important;
+    line-height: 46px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    font-weight: 700 !important;
+  }
+
+  h3 {
+    font-size: 22px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+
+  button {
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .circleBtn {
+    padding: 10px 13px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  h1 {
+    font-size: 34px !important;
+    line-height: 42px !important;
+  }
+
+  h2 {
+    font-size: 26px !important;
+    line-height: 32px !important;
+    font-weight: 600 !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+    font-weight: 600 !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+  }
+
+  h5 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+  }
+
+
+  p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}

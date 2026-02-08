@@ -1,0 +1,201 @@
+/* ====== 5.1 No Wishlist section ====== */
+#noWishlist {
+  padding: 100px 0;
+  border-bottom: 1px solid rgb(221 221 221);
+}
+
+.wishlistHeart {
+  font-size: 150px;
+}
+
+#noWishlist h5 {
+  color: #000;
+}
+
+#noWishlist button {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  padding: 0 50px;
+}
+
+#noWishlist button svg {
+  padding-right: 6px;
+}
+
+.wishlist_table {
+  padding: 100px 0;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.product-table thead {
+  background-color: #f4f4f4;
+}
+
+.product-table thead th {
+  padding: 15px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+.product-table tbody {
+  background-color: #1b1b2f;
+  color: #fff;
+}
+
+.product-table tbody tr td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-image img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-details {
+  margin-left: 10px;
+}
+
+.buy-now-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-now-btn:hover {
+  background-color: #444;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-icon {
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.clearBtn {
+  height: 45px;
+  padding: 0 50px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  float: right;
+  margin-top: 15px;
+  transition: 0.2s ease;
+}
+
+.clearBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.product-table svg {
+  color: #fff;
+}
+
+.product-table tr {
+  border: 1px solid rgb(221 221 221);
+}
+
+img[alt="wishlistImg"] {
+  width: 65px;
+}
+
+/* cart table */
+.cart_table a button {
+  background-color: #000;
+  color: #fff;
+  height: 45px;
+  margin-top: 15px;
+  padding: 0 30px;
+}
+
+.coupon h5 {
+  color: #000;
+}
+
+.coupon p {
+  color: #000;
+  padding: 20px 0 10px 0;
+}
+
+.coupon input {
+  width: 100%;
+  border: 1px solid rgb(204 204 204);
+  height: 60px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.coupon input::placeholder {
+  color: rgb(204 204 204);
+}
+
+.coupon button {
+  border: 1px solid #000;
+  background-color: transparent;
+  height: 50px;
+  padding: 0 40px;
+  margin-top: 30px;
+  transition: 0.2s ease;
+}
+
+.coupon button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cartTotal {
+  border: 1px solid rgb(191 191 191);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.cartTotal div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartTotal div:first-child {
+  border-bottom: 1px solid rgb(191 191 191);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cartTotal div h5:last-child {
+  font-weight: 300 !important;
+}
+
+.coupon a {
+  background-color: #000;
+  color: #fff;
+  padding: 14px 30px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* ====== End 5.1 No Wishlist section ====== */
